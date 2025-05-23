@@ -1,0 +1,36 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.Item {
+  background: c.$white;
+  padding: s.$medium s.$large;
+  border-radius: s.$small;
+}
+
+.Name {
+  font-size: 20px;
+  color: c.$green-dark;
+  margin-bottom: s.$extra-small;
+}
+
+.Price {
+  font-size: 16px;
+  color: c.$green;
+  margin-bottom: s.$small;
+}
+
+.Button {
+  font-size: 16px;
+  color: c.$cream;
+  background: c.$green;
+  border: 2px solid c.$green-dark;
+  padding: s.$extra-small s.$small;
+  border-radius: s.$extra-small;
+  cursor: pointer;
+
+  &:hover {
+    background: c.$green-dark;
+  }
+}

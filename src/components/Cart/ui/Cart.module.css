@@ -1,0 +1,60 @@
+.Popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(65, 68, 75, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.Cart {
+  padding: 25px 50px;
+  width: 50vw;
+  background: #eee7da;
+  border-radius: 15px;
+  position: relative;
+}
+
+.Button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: #afc8ad;
+  color: #eee7da;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #88ab8e;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #88ab8e;
+}
+
+.Title {
+  font-size: 25px;
+  color: #88ab8e;
+}
+
+.Container {
+  height: 65vh;
+  margin: 15px 0;
+  background: #f2f1eb;
+  border: 2px solid #88ab8e;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+  gap: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #afc8ad #eee7da;
+}
+
+.Total {
+  font-size: 20px;
+  color: #88ab8e;
+}/*# sourceMappingURL=Cart.module.css.map */

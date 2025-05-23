@@ -1,0 +1,30 @@
+.Item {
+  background: #f2f1eb;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.Name {
+  font-size: 20px;
+  color: #88ab8e;
+  margin-bottom: 5px;
+}
+
+.Price {
+  font-size: 16px;
+  color: #afc8ad;
+  margin-bottom: 10px;
+}
+
+.Button {
+  font-size: 16px;
+  color: #eee7da;
+  background: #afc8ad;
+  border: 2px solid #88ab8e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #88ab8e;
+}/*# sourceMappingURL=Item.module.css.map */

@@ -1,0 +1,66 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.Popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba($color: c.$black, $alpha: 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.Cart {
+  padding: s.$large s.$extra-large;
+  width: 50vw;
+  background: c.$cream;
+  border-radius: s.$medium;
+  position: relative;
+}
+
+.Button {
+  position: absolute;
+  top: s.$small;
+  right: s.$medium;
+  background: c.$green;
+  color: c.$cream;
+  padding: s.$extra-small s.$small;
+  border-radius: s.$extra-small;
+  font-size: 16px;
+  border: 2px solid c.$green-dark;
+  cursor: pointer;
+
+  &:hover {
+    background: c.$green-dark;
+  }
+}
+
+.Title {
+  font-size: 25px;
+  color: c.$green-dark;
+}
+
+.Container {
+  height: 65vh;
+  margin: s.$medium 0;
+  background: c.$white;
+  border: 2px solid c.$green-dark;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: s.$medium s.$large;
+  gap: s.$small;
+  scrollbar-width: thin;
+  scrollbar-color: c.$green c.$cream;
+}
+
+.Total {
+  font-size: 20px;
+  color: c.$green-dark;
+}

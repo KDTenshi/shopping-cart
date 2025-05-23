@@ -8,5 +8,8 @@
 .App {
   width: 100%;
   min-height: 100vh;
-  background: #f2f1eb;
+  background: #eee7da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=App.css.map */

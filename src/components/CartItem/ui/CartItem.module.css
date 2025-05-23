@@ -1,0 +1,38 @@
+.Item {
+  background: #eee7da;
+  padding: 25px 15px;
+  border: 2px solid #88ab8e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Name {
+  font-size: 20px;
+  color: #88ab8e;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Button {
+  padding: 10px;
+  background: #afc8ad;
+  color: #eee7da;
+  font-size: 16px;
+  border: 2px solid #88ab8e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #88ab8e;
+}
+
+.Count {
+  font-size: 16px;
+  color: #88ab8e;
+}/*# sourceMappingURL=CartItem.module.css.map */

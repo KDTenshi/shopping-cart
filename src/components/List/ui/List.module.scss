@@ -1,0 +1,29 @@
+@use "../../../shared/style/colors" as c;
+@use "../../../shared/style/spacings" as s;
+
+@import "../../../shared/style/mixins";
+
+.Button {
+  position: fixed;
+  top: s.$extra-large;
+  right: s.$ultra-large;
+  font-size: 20px;
+  background: c.$green;
+  border: 2px solid c.$green-dark;
+  padding: s.$medium s.$large;
+  border-radius: s.$small;
+  color: c.$cream;
+  cursor: pointer;
+
+  &:hover {
+    background: c.$green-dark;
+  }
+}
+
+.List {
+  width: 75vw;
+  padding: s.$medium s.$large;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: s.$medium;
+}
